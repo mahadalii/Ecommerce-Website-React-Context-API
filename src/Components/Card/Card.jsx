@@ -57,7 +57,7 @@ const Card = ({ product }) => {
                     <p className="card-text">{shortdescription}..</p>
                     <p>Rs {price}</p>
                     <a href="#" className="btn btn-primary" onClick={()=>{
-                        buttonHandler(product,index)
+                        buttonHandler(product)
                     }}>Add to Cart</a>
                 </div>
             </div>
